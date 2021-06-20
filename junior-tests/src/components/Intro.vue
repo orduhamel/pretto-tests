@@ -22,7 +22,7 @@
           Weight for weight
         </button>
         <div class="description">
-          <p>Un second test sur codewars mais cette fois tu le langage :)</p>
+          <p>Un second test sur codewars mais cette fois tu choisis le langage :)</p>
         </div>
       </div>
     </div>
