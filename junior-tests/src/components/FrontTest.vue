@@ -6,7 +6,7 @@
       <a href="https://github.com/F-Hameau/pretto-tests" target="_blank">Github</a>
     </p>
     <p>
-      Ensuite, on code ! Le but ici est d'afficher le contenu de l'input ci-dessous dans une popup au clique sur le
+      Ensuite, on code ! Le but ici est d'afficher le contenu de l'input ci-dessous dans une popup au clic sur le
       bouton
     </p>
     <div>
