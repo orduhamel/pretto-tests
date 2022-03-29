@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Junior Software Engineer</h1>
+    <h1>Software Engineer</h1>
     <p>Du back et du front pour tester ta technique</p>
     <div class="button-container">
       <div class="test large">

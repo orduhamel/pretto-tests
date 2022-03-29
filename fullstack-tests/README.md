@@ -1,4 +1,4 @@
-# junior-tests
+# fullstack-tests
 
 ## Project setup
 ```
