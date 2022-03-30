@@ -10,17 +10,25 @@
       bouton
     </p>
     <div>
-      <input class="large" type="text" placeholder="Texte à mettre dans la popup" />
+      <input v-model="userInput" class="large" type="text" placeholder="Texte à mettre dans la popup" />
     </div>
     <div>
-      <button class="large">Afficher la popup</button>
+      <FrontTestModal :text="userInput"/>
     </div>
   </div>
 </template>
 
 <script>
+import FrontTestModal from './FrontTestModal.vue';
+
 export default {
   name: "FrontTest",
+  props: {
+    userInput: String
+  },
+  components: {
+    FrontTestModal,
+  }
 };
 </script>
 

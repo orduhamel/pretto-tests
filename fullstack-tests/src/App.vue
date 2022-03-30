@@ -1,9 +1,10 @@
 <template>
-  <div id="app">
+  <div id="app" style="position: relative;">
     <img id="logo" alt="Pretto logo" src="./assets/logo_green.png" @click="toggleIntro" />
     <Intro v-if="displayIntro" @displayFrontTest="toggleFrontTest" @displayIntro="toggleIntro" />
     <FrontTest v-if="displayFrontTest" />
     <img id="wondering-man" alt="Wondering man" src="./assets/wondering-man.png" />
+    <portal-target name="front-test-modal"></portal-target>
   </div>
 </template>
 
@@ -16,12 +17,12 @@ export default {
   data() {
     return {
       displayIntro: true,
-      displayFrontTest: false,
+      displayFrontTest: false
     };
   },
   components: {
     Intro,
-    FrontTest,
+    FrontTest
   },
   methods: {
     toggleFrontTest() {
